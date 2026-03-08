@@ -13,26 +13,7 @@
 - 训练集与验证集差距仅1.6%，无过拟合
 
 ### 分割效果示例
-![分割结果](results/prediction.png)
-
-## 项目结构
-UNet-Medical-Segmentation/
-├── data/
-│ ├── images/
-│ │ ├── train/ # 训练图片
-│ │ └── val/ # 验证图片
-│ └── masks/
-│ ├── train/ # 训练mask
-│ └── val/ # 验证mask
-├── models/
-│ └── unet.py # U-Net模型定义
-├── utils/
-│ └── dataset.py # 数据加载
-├── train.py # 训练脚本
-├── predict.py # 预测脚本
-├── requirements.txt # 依赖包
-├── README.md # 项目说明
-└── DataProcessing.py # 数据处理脚本
+查看results中示例
 
 ## 环境要求
 
